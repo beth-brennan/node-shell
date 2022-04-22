@@ -9,7 +9,7 @@ module.exports = process.stdin.on('data', (data) => {
           }
           else {
               process.stdout.write(files.join('\n'))
-              process.stdout.write("prompt > ");
+              process.stdout.write("\nprompt > ");
           }
       });
     } else {
