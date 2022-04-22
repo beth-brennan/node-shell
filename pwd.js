@@ -10,3 +10,12 @@ module.exports = process.stdin.on('data', (data) => {
     }
     process.stdout.write('\nprompt > ');
   });
+
+
+
+// module.exports = function() {
+//   const wd = process.cwd();
+//   process.stdout.write(wd);
+//   process.stdout.write('\nprompt > ');
+// }
+
